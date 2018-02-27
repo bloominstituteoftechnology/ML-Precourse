@@ -1,0 +1,10 @@
+# After changing this file, check it on:
+#   http://lint.travis-ci.org/
+language: python
+
+python:
+ - 3.4
+before_install:
+ - pip install -r requirements.txt
+script:
+ -  python test.py
