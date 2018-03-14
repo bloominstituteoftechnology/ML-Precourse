@@ -11,3 +11,46 @@
 def f(x):
     return x**2
 
+import numpy as np
+
+def f(x):
+    return x**2
+
+def f_2(x):
+    return x**3
+
+def f_3(x):
+    return x**3 + 5*x
+
+def d_f(x):
+    return 2*x
+
+def d_f_2(x):
+    return 3*x**2
+
+def d_f_3(x):
+    return 3*x**2 + 5
+
+def vector_sum(x,y):
+    return np.add(x, y)
+
+def vector_less(x,y):
+    return np.subtract(x, y)
+
+def vector_magnitude(x):
+    return np.linalg.norm(x)
+
+def vec5():
+    return np.matrix(np.ones(5)).transpose()
+
+def vec3():
+    return np.matrix(np.zeros(3)).transpose()
+
+def vec2_1():
+    return np.matrix(np.array([1,0])).transpose()
+
+def vec2_2():
+    return np.matrix(np.array([0,1])).transpose()
+
+def matrix_multiply(v, m):
+    return np.dot(m, v)
