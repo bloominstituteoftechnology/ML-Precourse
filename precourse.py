@@ -41,16 +41,16 @@ def vector_magnitude(x):
     return np.linalg.norm(x)
 
 def vec5():
-    return np.matrix(np.ones(5)).transpose()
+    return np.ones(5)
 
 def vec3():
-    return np.matrix(np.zeros(3)).transpose()
+    return np.zeros(3)
 
 def vec2_1():
-    return np.matrix(np.array([1,0])).transpose()
+    return np.array([1,0])
 
 def vec2_2():
-    return np.matrix(np.array([0,1])).transpose()
+    return np.array([0,1])
 
 def matrix_multiply(v, m):
     return np.dot(m, v)
