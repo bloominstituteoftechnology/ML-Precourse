@@ -71,8 +71,8 @@ def vec2_2():
 
     return x
 
-def matrix_multiply():
+def matrix_multiply(vec, matrix):
 
-    x = np.array([[0],[1]])
+    x = np.multiply(matrix, vec)
 
     return x
