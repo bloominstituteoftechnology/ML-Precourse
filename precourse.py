@@ -41,7 +41,7 @@ def vector_magnitude(x):
 
     y=0
 
-    for( number in x):
+    for number in x:
 
         y += number**2
 
@@ -49,30 +49,30 @@ def vector_magnitude(x):
 
 def vec5():
 
-    x = np.array(np.ones(5,1))
+    x = np.array(np.ones(5))
 
     return x
 
 def vec3():
 
-    x = np.array(np.zeros(3,1))
+    x = np.array(np.zeros(3))
 
     return x
 
 def vec2_1():
 
-    x = np.array([[1],[0]])
+    x = np.array([1,0])
 
     return x
 
 def vec2_2():
 
-    x = np.array([[0],[1]])
+    x = np.array([0,1])
 
     return x
 
 def matrix_multiply(vec, matrix):
 
-    x = np.multiply(matrix, vec)
+    x = np.dot(vec, matrix)
 
     return x
