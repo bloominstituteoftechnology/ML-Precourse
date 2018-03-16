@@ -20,9 +20,14 @@ def f_2(x):
 def f_3(x):
     return (x**3 + 5*x)
 
-# d_f(x)
-# d_f_2
-# d_f_3
+def d_f(x):
+    return 2*x
+
+def d_f_2(x):
+    return 3*(x**2)
+
+def d_f_3(x):
+    return (3*(x**2) + 5)
 
 def vector_sum(x,y):
     return np.add(x,y)
