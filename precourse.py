@@ -54,12 +54,16 @@ def vec5():
 
 
 def vec3():
-    return np.array(0, 0, 0)
+    return np.array([0, 0, 0])
 
 
 def vec2_1():
-    return np.array(1, 0)
+    return np.array([1, 0])
 
 
 def vec2_2():
-    return np.array(0, 1)
+    return np.array([0, 1])
+
+
+def matrix_multiply(v, m):
+    return np.array(m).dot(np.array(v))
