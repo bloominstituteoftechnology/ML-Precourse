@@ -50,16 +50,16 @@ def vector_magnitude(x):
   return math.sqrt(x[0]**2 + x[1]**2)
   
 def vec5():
-  return np.array[1,1,1,1,1]
+  return np.array([1,1,1,1,1])
 
 def vec3():
-  return np.array[0,0,0]
+  return np.array([0,0,0])
 
 def vec2_1():
-  return np.array[1,0]
+  return np.array([1,0])
 
 def vec2_2():
-  return np.array[0,1]
+  return np.array([0,1])
 
 def matrix_multiply(vec,matrix):
   v0 = vec[0] * matrix[0][0] + vec[1] * matrix[0][1]
