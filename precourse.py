@@ -35,9 +35,11 @@ def d_f_3(x):
 
 def vector_sum(x, y):
     return [x[0] + y[0]]
+    # np.add(x, y)
     
 def vector_less(x, y):
     return [x[0] - y[0]]
+    # np.subtract(x, y)
     
 def vector_magnitude(x):
     sum = 0
@@ -47,9 +49,11 @@ def vector_magnitude(x):
 
 def vec5():
     return np.array([1,1,1,1,1])
+    # np.ones(5)
 
 def vec3():
     return np.array([0,0,0])
+    # np.zeros(3)
 
 def vec2_1():
     return np.array([1,0])
@@ -62,3 +66,4 @@ def matrix_multiply(vec, matrix):
                     vec[0] * matrix[0][0] + matrix[0][1]*vec[1], 
                     vec[0] * matrix[1][0] + matrix[1][1]*vec[1]
                     ])
+    # np.dot(v, m)
