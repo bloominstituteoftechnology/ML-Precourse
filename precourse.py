@@ -36,17 +36,17 @@ def d_f(x):
 
 def d_f_2(x):
     return (f_2(x + h) - f_2(x - h)) / (2 * h)
-    # return return 3*(x**2)
+    # return 3*(x**2)
 
 
 def d_f_3(x):
     return (f_3(x + h) - f_3(x - h)) / (2 * h)
-    # return return 3*(x**2) + 5
+    # return 3*(x**2) + 5
 
 
 def vector_sum(x, y):
-    for num in range(len(x)):
-        return [x[num] + y[num]]
+    for i in range(len(x)):
+        return [x[i] + y[i]]
 
 
 def vector_less(x, y):
