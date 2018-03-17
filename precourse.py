@@ -1,29 +1,28 @@
 import numpy as np
 import math
 
-
-f = np.poly1d([1, 0, 0])
-f_2 = np.poly1d([1, 0, 0, 0])
-f_3 = np.poly1d([1, 0, 5, 0])
-
-
 def f(x):
-    return f
+    return x ** 2
 
 def f_2(x):
-    return f_2
+    return x ** 3
 
 def f_3(x):
-    return f_3
+    return x ** 3 + 5 * x
+
+h = 1e-5
 
 def d_f(x):
-    return f.deriv(1)
+    return (f(x + h) - f(x - h)) / (2 * h)
+# return 2 * x
 
 def d_f_2(x):
-    return f_2.deriv(1)
+    return (f_2(x + h) - f_2(x - h)) / (2 * h)
+# return 3 * (x ** 2)
 
 def d_f_3(x):
-    return f_3.deriv(1)
+    return (f_3(x + h) - f_3(x - h)) / (2 * h)
+# return 3 * (x ** 2) + 5
 
 
 def vector_sum(x,y):
