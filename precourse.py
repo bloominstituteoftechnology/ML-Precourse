@@ -1,4 +1,4 @@
-#Machine Learning/Data Science Precourse Work
+# Machine Learning/Data Science Precourse Work
 
 # ###
 # LAMBDA SCHOOL
@@ -30,10 +30,10 @@ def d_f_3(x):
     return 3 * x ** (3 - 1) + 5
 
 def vector_sum(x, y):
-    return [x[0] + y[0]]
+    return np.add(x, y)
 
 def vector_less(x, y):
-    return [x[0] - y[0]]
+    return np.subtract(x, y)
 
 def vector_magnitude(vector):
     return math.sqrt(vector[0] ** 2 + vector[1] ** 2)
