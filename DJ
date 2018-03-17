@@ -1,0 +1,56 @@
+import numpy as np
+import math
+
+def f(x):
+    y = 2
+    result = x ** y
+    return result
+
+def f_2(x):
+    y = 3
+    result = x ** y
+    return result
+
+def f_3(x):
+    y = 3
+    result = x ** y + 5 * x
+    return result
+
+def d_f(x):
+    y = 2
+    result = y * x ** (y - 1)
+    return result
+
+def d_f_2(x):
+    y = 3
+    result = y * x ** (y - 1)
+    return result
+
+def d_f_3(x):
+    y = 3
+    result = y * x ** (y-1) + 5
+    return result
+
+def vector_sum(x, y):
+    return [x[0] + y[0]]
+
+def vector_less(x, y):
+    return [x[0] - y[0]]
+
+def vector_magnitude(vector):
+    return math.sqrt(vector[0] ** 2 + vector[1] ** 2)
+
+def vec5():
+    return np.array([1, 1, 1, 1, 1])
+
+def vec3():
+    return np.array([0, 0, 0])
+
+def vec2_1():
+    return np.array([1, 0])
+
+def vec2_2():
+    return np.array([0, 1])
+
+def matrix_multiply(vec, matrix):
+    return np.array(vec).dot(matrix)
