@@ -101,7 +101,7 @@ def vector_adjust_center(*vectors):
 
 
 def vector_magnitude(vector):
-  return sqrt(reduce((lambda x, y: x + y**2), *fix_vectors(vector), 0))
+  return sqrt(reduce((lambda x, y: x + y**2), fix_vectors(vector)[0], 0))
 
 
 def vec5():
