@@ -31,7 +31,7 @@ def f_2(x):
 
 def f_3(x):
 
-    return (x ** 3)  (5 * x)
+    return (x ** 3) * (5 * x)
 
 
 ####Derivatives
@@ -70,7 +70,7 @@ def vector_less(vx, vy):
 
 def vector_magnitude(vec):
 
-    return np.sum(np.array(v)**2)**0.5
+    return np.sum(np.array(vec)**2)**0.5
 
 
 def vec5():
