@@ -31,7 +31,7 @@ def f_2(x):
 
 def f_3(x):
 
-    return (x ** 3) * (5 * x)
+    return (x ** 3) + (5 * x)
 
 
 ####Derivatives
