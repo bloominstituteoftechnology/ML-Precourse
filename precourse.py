@@ -17,7 +17,7 @@ def f_2(x):
         return x**3
 
 def f_3(x):
-        return x ** 2 + 5 * x
+        return x**2 + (5 * x)
 
 def d_f(x):
         return (f(x + h) - f(x - h)) / (2 * h)
