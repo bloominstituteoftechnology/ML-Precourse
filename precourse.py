@@ -21,7 +21,7 @@ import math
 import numpy as np
 
 def f(x):
-    return x**2
+	return x**2
 
 def f(x):
 	return x**2
