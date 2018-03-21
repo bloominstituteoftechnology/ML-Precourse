@@ -23,7 +23,7 @@ def f_2(x):
     return x**3
 
 def f_3(x):
-    return (x**3) + 5
+    return (x**3) + (5*x)
 
 # Define three additional functions d_f, d_f_2, and d_f_3. These functions
 # should respectively return the derivative of their associated functions above:
@@ -31,13 +31,13 @@ def f_3(x):
 # d_f_3 returns the derivative of f_3.
 
 def d_f(x):
-    return 2 * x
+    return 2*x
 
 def d_f_2(x):
-    return 3 * x ** 2
+    return 3*x**2
 
 def d_f_3(x):
-    return (3 * (x ** 2)) + 5
+    return 3*(x**2) + 5
 
 ## Linear Algebra
 # Define functions that perform basic vector arithmetic operations:
