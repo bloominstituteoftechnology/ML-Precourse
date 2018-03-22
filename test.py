@@ -18,8 +18,8 @@ class UnitTests(unittest.TestCase):
         # Failure message: 
         message =  'f_3(x) does not return x cubed plus 5x'
         self.assertEqual(precourse.f_3(1),6,msg=message)
-        self.assertEqual(precourse.f_3(5),150,msg=message)
-        self.assertEqual(precourse.f_3(-5),-150,msg=message)
+        self.assertEqual(precourse.f_3(5),130,msg=message)
+        self.assertEqual(precourse.f_3(-5),-120,msg=message)
     def test_vector_sum(self):
         # Failure message: 
         message = 'vector_sum(x,y) does not return x+y'
