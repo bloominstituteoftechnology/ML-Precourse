@@ -11,9 +11,9 @@
 import math
 import numpy as np
 
-def derivative(func , x):
-    i = 0.0000000001
-    return round((func(x+i)-func(x))/i,3)
+def derivative(func, x):
+    epsilon = math.e**-10
+    return round((func(x+epsilon)-func(x))/epsilon, 3)
 
 def f(x):
     return x**2
@@ -25,58 +25,60 @@ def f_3(x):
     return x**3 + 5*x
 
 def d_f(x):
-    return derivative(f,x)
+    return derivative(f, x)
 
 def d_f_2(x):
-    return derivative(f_2,x)
+    return derivative(f_2, x)
 
 def d_f_3(x):
-    return derivative(f_3,x)
+    return derivative(f_3, x)
 
-def vector_sum(vectA ,vectB ):
-	vectorAdd = []
-	if(len(vectA) == len(vectB)):
-		for x,y in zip(vectA,vectB):
-			vectorAdd.append(x+y)
-	return vectorAdd
+def vector_sum(vectA, vectB):
+    vectorAdd = []
+    if(len(vectA) == len(vectB)):
+        for x,y in zip(vectA, vectB):
+            vectorAdd.append(x+y)
+    return vectorAdd
 
-def vector_less(vectA ,vectB ):
-	vectorSub = []
-	if(len(vectA) == len(vectB)):
-		for x,y in zip(vectA,vectB):
-			vectorSub.append(x-y)
-	return vectorSub
+def vector_less(vectA, vectB):
+    vectorSub = []
+    if(len(vectA) == len(vectB)):
+        for x,y in zip(vectA, vectB):
+            vectorSub.append(x-y)
+
+    return vectorSub
 
 def vector_magnitude(vectA):
-	squaredAddition = 0
-	for x in vectA:
-		squaredAddition = squaredAddition + x**2
-	return math.sqrt(squaredAddition)
+    squaredAddition = 0
+    for x in vectA:
+        squaredAddition = squaredAddition + x**2
+
+    return math.sqrt(squaredAddition)
 
 def vec3():
-	return np.zeros(3)
+    return np.zeros(3)
 
 def vec5():
-	return np.ones(5)
+    return np.ones(5)
 
 def vec2_1():
-	return np.identity(2)[0]
+    return np.identity(2)[0]
 
 def vec2_2():
-	return np.identity(2)[1]
+    return np.identity(2)[1]
 
-def matrix_multiply(matrixA,matrixB):
-	try:
-		matrixAColNos = np.shape(matrixA)[0] 
-	except IndexError as e:
-		matrixAColNos = 1
-	try:
-		matrixBrowNos = np.shape(matrixB)[1]
-	except Exception as e:
-		matrixBrowNos = 1
+def matrix_multiply(matrixA, matrixB):
+    try:
+        matrixAColNos = np.shape(matrixA)[0]
+    except IndexError as e:
+        matrixAColNos = 1
+    try:
+        matrixBrowNos = np.shape(matrixB)[1]
+    except Exception as e:
+        matrixBrowNos = 1
 
-	if (matrixAColNos == matrixBrowNos):
-		return np.dot(matrixA,matrixB)
-	else:
-		raise Exception('The dot multiplication is not possible in this case')
+    if (matrixAColNos == matrixBrowNos):
+        return np.dot(matrixA, matrixB)
+    else:
+        raise Exception('The dot multiplication is not possible in this case')
 
