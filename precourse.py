@@ -12,7 +12,7 @@ import math
 import numpy as np
 
 def derivative(func, x):
-    epsilon = math.e**-10
+    epsilon = math.e**-18
     return round((func(x+epsilon)-func(x))/epsilon, 3)
 
 def f(x):
@@ -33,6 +33,7 @@ def d_f_2(x):
 def d_f_3(x):
     return derivative(f_3, x)
 
+print(d_f_2(5))
 def vector_sum(vectA, vectB):
     vectorAdd = []
     if(len(vectA) == len(vectB)):
