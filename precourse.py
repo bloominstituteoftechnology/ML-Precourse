@@ -33,7 +33,6 @@ def d_f_2(x):
 def d_f_3(x):
     return derivative(f_3, x)
 
-print(d_f_2(5))
 def vector_sum(vectA, vectB):
     vectorAdd = []
     if(len(vectA) == len(vectB)):
