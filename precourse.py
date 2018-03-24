@@ -34,10 +34,10 @@ def d_f_3(x):
     
 
 def vector_sum(x,y):
-    return map(sum, zip(x,y))
+    return np.add(x,y)
 
 def vector_less(x,y):
-    return map(int.__sub__, x,y)
+    return np.subtract(x,y)
 
 def vector_magnitude(x):
     v = np.array(x)
