@@ -21,11 +21,11 @@ def d_f_2(x):
 def d_f_3(x):
   return 3*x**2+5
 def vector_sum(x,y):
-    while i<len(x)
+    while (i<len(x)):
     v[i]=x[i]+y[i]
   return v
 def vector_less(x,y):
-    while i<len(x)
+    while (i<len(x)):
     v[i]=x[i]-y[i]
   return v
 def vector_magnitude(v):
