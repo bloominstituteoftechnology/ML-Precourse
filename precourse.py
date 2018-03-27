@@ -21,16 +21,16 @@ def d_f_2(x):
 def d_f_3(x):
   return 3*x**2+5
 def vector_sum(x,y):
-  return x+y
+  return [sum(i) for i in zip(x,y)]
 def vector_less(x,y):
-  return x-y
+  return [sum(i) for i in zip(x,[-1*j for j in y])]
 def vector_magnitude(v):
   return (sum(i**2 for i in v))**.5
 import numpy as np
 def vec5():
-  return np.array([1,1,1,1,1])
+  return np.ones(5)
 def vec3():
-  return np.array([0,0,0])
+  return np.zeros(3)
 def vec2_1():
   return np.array([1,0])
 def vec2_2():
