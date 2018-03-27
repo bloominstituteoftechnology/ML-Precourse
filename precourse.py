@@ -21,9 +21,13 @@ def d_f_2(x):
 def d_f_3(x):
   return 3*x**2+5
 def vector_sum(x,y):
-  return [x[i]+y[i] for i in x]
+    while i<len(x)
+    v[i]=x[i]+y[i]
+  return v
 def vector_less(x,y):
-  return [x[i]-y[i] for i in x]
+    while i<len(x)
+    v[i]=x[i]-y[i]
+  return v
 def vector_magnitude(v):
   return (sum(i**2 for i in v))**.5
 import numpy as np
@@ -36,4 +40,4 @@ def vec2_1():
 def vec2_2():
   return np.array([0,1])
 def matrix_multiply(vec,matrix):
-  return np.array([vec[0]*matrix[0,0]+vec[1]*matrix[0,1],vec[0]*matrix[1,0]+vec[1]*matrix[1,1]])
+  return np.array([vec[1]*matrix[1,1]+vec[2]*matrix[1,2],vec[1]*matrix[2,1]+vec[2]*matrix[2,2]])
