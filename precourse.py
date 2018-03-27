@@ -9,7 +9,7 @@
 # Free example function definition
 # This function passes one of the 11 tests contained inside of test.py. Write the rest, defined in README.md, here, and execute python test.py to test. Passing this precourse work will greatly increase your odds of acceptance into the program.
 def f(x):
-    return x**2
+  return x**2
 def f_2(x):
   return x**3
 def f_3(x):
@@ -21,12 +21,12 @@ def d_f_2(x):
 def d_f_3(x):
   return 3*x**2+5
 def vector_sum(x,y):
-    while (i<len(x)):
-        v[i]=x[i]+y[i]
+  while (i<len(x)):
+    v[i]=x[i]+y[i]
   return v
 def vector_less(x,y):
-    while (i<len(x)):
-        v[i]=x[i]-y[i]
+  while (i<len(x)):
+    v[i]=x[i]-y[i]
   return v
 def vector_magnitude(v):
   return (sum(i**2 for i in v))**.5
