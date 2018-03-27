@@ -42,4 +42,4 @@ def vec2_1():
 def vec2_2():
   return np.array([0,1])
 def matrix_multiply(vec,matrix):
-  return np.array([vec[1]*matrix[1]+vec[2]*matrix[2],vec[1]*matrix[3]+vec[2]*matrix[4]])
+  return np.array([vec[0]*matrix[0]+vec[1]*matrix[2],vec[0]*matrix[1]+vec[1]*matrix[3]])
