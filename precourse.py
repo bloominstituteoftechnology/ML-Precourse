@@ -32,11 +32,11 @@ def d_f_3(x):
 
 def vector_sum(v1,v2):
  x = np.array(v1)
- y = np.array(v2)
+ y = np.array(v2)	
  res = x + y
  return res
 
-def vector_less(v1,v2):
+def vector_less(x,y):
  x = np.array(v1)
  y = np.array(v2)
  res = x - y
@@ -49,28 +49,26 @@ def vector_magnitude(x):
  return(math.sqrt(sum))
 
 def vec5():
- x = np.ones((5,1),dtype=int)
+ x = np.ones(5)
  return x
 
 def vec3():
- x=np.zeros((3,1),dtype=int)
+ x=np.zeros(3)
  return x
 
 def vec2_1():
- a=np.zeros((2,1),dtype=int)
- np.fill_diagonal(a, 1)
+ a=np.zeros([1,0])
  return a
 
 def vec2_2():
- a=np.ones((2,1),dtype=int)
- np.fill_diagonal(a, 0)
+ a=np.ones([0,1])
  return a
 
-def matrix_multiply(matrix,vector):
- a1 = np.array(matrix)
- b1 = np.array(vector)
- res = a1*b1
- return res
+def matrix_multiply(m,v):
+ a = np.array(m)
+ b = np.array(v)
+ c = a.dot(b)
+ return c
  
 
 
