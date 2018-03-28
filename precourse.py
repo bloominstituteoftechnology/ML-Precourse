@@ -67,9 +67,9 @@ def vec2_2():
  return a
 
 def matrix_multiply(matrix,vector):
- a1 = np.array(matrix)
- b1 = np.array(vector)
- res = a1*b1
+ x = np.array(matrix)
+ y = np.array(vector)
+ res = x*y
  return res
  
 
