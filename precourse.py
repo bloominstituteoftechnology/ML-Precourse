@@ -11,13 +11,13 @@
 import numpy as np
 import math
 def f(x):
-	return x**2
+ return x**2
 
 def f_2(x):
-   return x**3
+ return x**3
 
 def f_3(x):
-   return x**3+5*x
+ return x**3+5*x
 
 def d_f(x):
  return 2*x
@@ -31,10 +31,14 @@ def d_f_3(x):
  return 3*a + 5 
 
 def vector_sum(v1,v2):
+ x = np.array(v1)
+ y = np.array(v2)
  res = x + y
  return res
 
-def vector_less(x,y):
+def vector_less(v1,v2):
+ x = np.array(v1)
+ y = np.array(v2)
  res = x - y
  return res
 
@@ -63,11 +67,11 @@ def vec2_2():
  return a
 
 def matrix_multiply(matrix,vector):
- if(matrix.shape[1] == vector.shape[0])	
-  a = matrix*vector
-  return a
- else:
-  print ("matrix_multiply(vec,matrix) does not multiply")
+ a = np.array(matrix)
+ b = np.array(vector)
+ res = a*b
+ return res
+ 
 
 
 		
