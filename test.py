@@ -21,6 +21,18 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(precourse.f_3(1),6)
         self.assertEqual(precourse.f_3(5),150)
         self.assertEqual(precourse.f_3(-5),-150)
+    def test_d_f(self):
+        self.assertEqual(precourse.d_f(1),2)
+        self.assertEqual(precourse.d_f(5),10)
+        self.assertEqual(precourse.d_f(-5),-10)
+    def test_d_f_2(self):
+        self.assertEqual(precourse.d_f_2(1),3)
+        self.assertEqual(precourse.d_f_2(5),75)
+        self.assertEqual(precourse.d_f_2(-5),75)
+    def test_d_f_3(self):
+        self.assertEqual(precourse.d_f_3(1),8)
+        self.assertEqual(precourse.d_f_3(5),80)
+        self.assertEqual(precourse.d_f_3(-5),80)
     def test_vector_sum(self):
         # Failure message: 
         # vector_sum(x,y) does not return x+y
