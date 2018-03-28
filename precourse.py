@@ -23,7 +23,7 @@ def d_f(x):
   return 2 * x
 
 def d_f_2(x):
-  return 3 * x**x
+  return 3 * x**2
 
 def d_f_3(x):
   return 3 * x**2 + 5
