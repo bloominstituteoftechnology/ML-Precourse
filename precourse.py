@@ -11,13 +11,13 @@
 import numpy as np
 import math
 def f(x):
-	return x**2
+ return x**2
 
 def f_2(x):
-   return x**3
+ return x**3
 
 def f_3(x):
-   return x**3+5*x
+ return x**3+5*x
 
 def d_f(x):
  return 2*x
@@ -71,6 +71,6 @@ def matrix_multiply(matrix,vector):
  b = np.array(vector)
  res = a*b
  return res
- 
+
 
 		
