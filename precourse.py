@@ -36,7 +36,7 @@ def vector_sum(v1,v2):
  res = x + y
  return res
 
-def vector_less(x,y):
+def vector_less(v1,v2):
  x = np.array(v1)
  y = np.array(v2)
  res = x - y
@@ -57,11 +57,11 @@ def vec3():
  return x
 
 def vec2_1():
- a=np.zeros([1,0])
+ a=np.array([1,0])
  return a
 
 def vec2_2():
- a=np.ones([0,1])
+ a=np.array([0,1])
  return a
 
 def matrix_multiply(m,v):
