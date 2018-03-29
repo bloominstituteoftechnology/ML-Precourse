@@ -25,19 +25,19 @@ def f_2(x):
 
 ## function of x^3 + 5x
 def f_3(x):
-    return (x**3 + 5x)
+    return (x**3 + (5*x))
 
 ## derivative of f
 def d_f:
-    return (2x)
+    return (2*x)
 
 ## derivative of f_2
 def d_f_2:
-    return (3x**2)
+    return (3*(x**2))
 
 ## derivative of f_3
 def d_f_3:
-    return (3x**2 + 5)
+    return (3*(x**2) + 5)
  
 ## the sum of vectors 'x' and 'y' is another vector 'v'
 ## vector_sum = (x_i + y_i)
