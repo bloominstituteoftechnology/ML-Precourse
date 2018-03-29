@@ -5,15 +5,15 @@ import matplotlib.pyplot as pyplot
 
 ## d(f(x)) is f(x**n) = n * x**(n-1)
 ## function of x^2
-def f(x):
+def f():
     return (x**2)
 
 ## function of x^3
-def f_2(x):
+def f_2():
     return (x**3)
 
 ## function of x^3 + 5x
-def f_3(x):
+def f_3():
     return (x**3 + 5x)
 
 ## derivative of f
