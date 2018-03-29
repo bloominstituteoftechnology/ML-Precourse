@@ -12,7 +12,6 @@ def f(x):
     return x**2
 
 import numpy as np
-import matplotlib.pyplot as pyplot
 
 ## d(f(x)) is f(x**n) = n * x**(n-1)
 ## function of x^2
