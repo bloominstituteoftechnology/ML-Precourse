@@ -41,12 +41,12 @@ def d_f_3(x):
  
 ## the sum of vectors 'x' and 'y' is another vector 'v'
 ## vector_sum = (x_i + y_i)
-def vector_sum:
+def vector_sum(x,y):
     return np.add(x,y)
 
 ## the difference of two vectors is another vector 'v'
 ## vector_less = (x_i - y_i)
-def vector_less:
+def vector_less(x,y):
     return np.subtract(x,y)
 
 ## the magnitude of a vector, its length, is
@@ -57,16 +57,16 @@ def vector_magnitude(x)
 
 ## arrays
 
-def vec5:
+def vec5():
     return np.array([1,1,1,1,1])
 
-def vec3:
+def vec3():
     return np.array([0,0,0])
 
-def vec2_1:
+def vec2_1():
     return np.array([1,0])
 
-def vec2_2:
+def vec2_2():
     return np.array([0,1])
 
 ## matrix multiplication function that multiplies 
