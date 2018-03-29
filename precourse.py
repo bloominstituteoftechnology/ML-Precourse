@@ -28,15 +28,15 @@ def f_3(x):
     return (x**3 + (5*x))
 
 ## derivative of f
-def d_f:
+def d_f(x):
     return (2*x)
 
 ## derivative of f_2
-def d_f_2:
+def d_f_2(x):
     return (3*(x**2))
 
 ## derivative of f_3
-def d_f_3:
+def d_f_3(x):
     return (3*(x**2) + 5)
  
 ## the sum of vectors 'x' and 'y' is another vector 'v'
