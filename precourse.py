@@ -12,22 +12,22 @@
 import numpy as np
 
 def f(x):
-    return x**2
+    return (x**2)
 
 def f_2(x):
-    return x**3
+    return (x**3)
 
 def f_3(x):
-    return x**3+x*5
+    return (x**3)+(x*5)
 
 def d_f(x):
     return x*2
 
 def d_f_2(x):
-    return 3*x**2
+    return 3*(x**2)
 
 def d_f_3(x):
-    return 3*x**2+5
+    return 3*(x**2)+5
 
 def vector_sum(x,y):
     return np.add(x,y)
