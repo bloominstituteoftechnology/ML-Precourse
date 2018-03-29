@@ -41,7 +41,7 @@ def vector_less:
 ## the magnitude of a vector, its length, is
 ## absolute value of v is equal to the square root of the summation between 'i' and 'n' 
 ## in the formula 'v' sub 'i' squared [(v_i)**2)]
-def vector_magnitude(x)
+def vector_magnitude(x):
     return np.linalg.norm(x)
 
 ## arrays
