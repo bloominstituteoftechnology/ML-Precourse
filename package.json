@@ -1,0 +1,25 @@
+{
+  "name": "ml-precourse",
+  "version": "1.0.0",
+  "description": "ML Precourse work",
+  "main": "index.js",
+  "dependencies": {
+    "as": "^0.4.1",
+    "np": "^2.20.1",
+    "numpy": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "python test.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitcointroy/ML-Precourse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitcointroy/ML-Precourse/issues"
+  },
+  "homepage": "https://github.com/bitcointroy/ML-Precourse#readme"
+}
