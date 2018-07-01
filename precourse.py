@@ -11,3 +11,17 @@
 def f(x):
     return x**2
 
+def f_2(X):
+    return x**3
+
+def f_3(x):
+    return x**3 + 5
+
+def d_f(x):
+    2*x**1
+    
+def d_f_2(z):
+    3*x**2
+    
+def d_f_3(z)
+    3*x**2 +5*x
