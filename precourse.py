@@ -26,5 +26,5 @@ def d_f_2(f_2):
 def d_f_3(f_3):
     3*x**2 +5*x
     
-def vector_sum(v):
-    v = x+y
+def vector_sum(x,y):
+    return np.add(x,y)
