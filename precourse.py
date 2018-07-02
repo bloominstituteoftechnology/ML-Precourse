@@ -14,19 +14,19 @@ import numpy as np
 def f(x):
     return x**2
 
-def f_2(X):
+def f_2(x):
     return x**3
 
 def f_3(x):
     return x**3 + 5
 
-def d_f(f):
+def d_f(x):
     2*x**1
     
-def d_f_2(f_2):
+def d_f_2(x):
     3*x**2
     
-def d_f_3(f_3):
+def d_f_3(x):
     3*x**2 +5*x
     
 def vector_sum(x,y):
