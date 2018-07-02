@@ -50,5 +50,5 @@ def vec2_1():
 def vec2_2():
     return np.array (0,1)
 
-def matrix_multiple(vert, matrix);
+def matrix_multiple(vert, matrix):
     return np.dot(vert, matrix)
