@@ -17,11 +17,11 @@ def f_2(X):
 def f_3(x):
     return x**3 + 5
 
-def d_f(f(x)):
+def d_f(f):
     2*x**1
     
-def d_f_2(f_2(x)):
+def d_f_2(f_2):
     3*x**2
     
-def d_f_3(f_3(x)):
+def d_f_3(f_3):
     3*x**2 +5*x
