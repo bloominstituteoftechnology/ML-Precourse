@@ -20,8 +20,8 @@ def f_3(x):
 def d_f(x):
     2*x**1
     
-def d_f_2(z):
+def d_f_2(x):
     3*x**2
     
-def d_f_3(z)
+def d_f_3(x)
     3*x**2 +5*x
