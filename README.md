@@ -1,3 +1,4 @@
+# DEPRECATED
 
 The Lambda School Machine Learning Precourse work enables you to demonstrate basic understanding of Python3 programming, linear algebra, very basic calculus, and conforming to unit test requirements.
 
